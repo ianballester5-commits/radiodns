@@ -1,0 +1,61 @@
+<serviceInformation xmlns="http://www.worlddab.org/schemas/spi/31" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creationTime="2014-06-13T10:32:41+01:00" originator="RadioDNS XSI Generator" xml:lang="en" xsi:schemaLocation="http://www.worlddab.org/schemas/spi/31 spi_31.xsd">
+<services>
+<serviceProvider>
+<shortName>Mi Radio</shortName>
+<mediumName>Mi Radio</mediumName>
+<mediaDescription>
+<shortDescription>LA RADIO LIDER DEL GENERO URBANO</shortDescription>
+</mediaDescription>
+<epg:link xmlns:epg="http://www.worlddab.org/schemas/epgDataTypes/14" url="www.miradiofm.es" mimeValue="text/html"/>
+<epg:link xmlns:epg="http://www.worlddab.org/schemas/epgDataTypes/14" url="https://vps-9f1e2662.vps.ovh.net/miradiofm" mimeValue="audio/mpeg"/>
+<mediaDescription>
+<multimedia url="https://static.wixstatic.com/media/76b12f_178a9d37d8374dbca27da959c8fe5716~mv2.png" mimeValue="image/jpeg" width="32" height="32"/>
+</mediaDescription>
+<mediaDescription>
+<multimedia url="https://static.wixstatic.com/media/76b12f_f95f7cc6829e42c7b25a4a42646947e3~mv2.png" mimeValue="image/jpeg" width="112" height="32"/>
+</mediaDescription>
+<mediaDescription>
+<multimedia url="https://static.wixstatic.com/media/76b12f_99ca3f92e77c4012a35d839973911f6d~mv2.png" mimeValue="image/jpeg" width="128" height="128"/>
+</mediaDescription>
+<mediaDescription>
+<multimedia url="https://static.wixstatic.com/media/76b12f_c05337ee90dd4e60b8ca72e84d7d70d8~mv2.png" mimeValue="image/jpeg" width="320" height="240"/>
+</mediaDescription>
+<mediaDescription>
+<multimedia url="https://static.wixstatic.com/media/76b12f_3ffe7139948e40cf964bf48a1ba8ee8b~mv2.png" mimeValue="image/jpeg" width="600" height="600"/>
+</mediaDescription>
+<geolocation>
+<country>ES</country>
+</geolocation>
+</serviceProvider>
+<service>
+<shortName>Mi Radio</shortName>
+<mediumName>Mi Radio</mediumName>
+<mediaDescription>
+<shortDescription>LA RADIO LIDER DEL GENERO URBANO</shortDescription>
+</mediaDescription>
+<epg:link xmlns:epg="http://www.worlddab.org/schemas/epgDataTypes/14" url="www.miradiofm.es" mimeValue="text/html"/>
+<epg:link xmlns:epg="http://www.worlddab.org/schemas/epgDataTypes/14" url="https://vps-9f1e2662.vps.ovh.net/miradiofm" mimeValue="audio/mpeg"/>
+<mediaDescription>
+<multimedia url="https://static.wixstatic.com/media/76b12f_178a9d37d8374dbca27da959c8fe5716~mv2.png" mimeValue="image/jpeg" width="32" height="32"/>
+</mediaDescription>
+<mediaDescription>
+<multimedia url="https://static.wixstatic.com/media/76b12f_f95f7cc6829e42c7b25a4a42646947e3~mv2.png" mimeValue="image/jpeg" width="112" height="32"/>
+</mediaDescription>
+<mediaDescription>
+<multimedia url="https://static.wixstatic.com/media/76b12f_99ca3f92e77c4012a35d839973911f6d~mv2.png" mimeValue="image/jpeg" width="128" height="128"/>
+</mediaDescription>
+<mediaDescription>
+<multimedia url="https://static.wixstatic.com/media/76b12f_c05337ee90dd4e60b8ca72e84d7d70d8~mv2.png" mimeValue="image/jpeg" width="320" height="240"/>
+</mediaDescription>
+<mediaDescription>
+<multimedia url="https://static.wixstatic.com/media/76b12f_3ffe7139948e40cf964bf48a1ba8ee8b~mv2.png" mimeValue="image/jpeg" width="600" height="600"/>
+</mediaDescription>
+<geolocation>
+<country>ES</country>
+</geolocation>
+<bearer id="fm:5e2.5005.08770" cost="Spain"/>
+<bearer id="fm:5e2.5005.09950" cost="Spain"/>
+<radiodns fqdn="miradiofm.es" serviceIdentifier="main"/>
+</service>
+</services>
+</serviceInformation>
