@@ -1,84 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<serviceInformation
-  xmlns="http://www.worlddab.org/schemas/spi/31"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.worlddab.org/schemas/spi/31 http://www.worlddab.org/schemas/spi/31/spi_31.xsd"
-  xml:lang="es"
-  creationTime="2026-02-01T00:00:00Z"
-  originator="Mi Radio"
-  terms="https://radiodns.org/terms/metadata/1.0">
-
-  <services>
-    <service>
-
-      <shortName>Mi Radio</shortName>
-      <mediumName>Mi Radio</mediumName>
-      <longName>Mi Radio</longName>
-
-      <!-- Descripción (recomendado para Project Logo) -->
-      <mediaDescription>
-        <shortDescription>Urban Music</shortDescription>
-      </mediaDescription>
-
-      <mediaDescription>
-        <longDescription>Mi Radio - Urban Music en Valencia (87.7 FM) y Alicante (99.5 FM).</longDescription>
-      </mediaDescription>
-
-      <!-- Project Logo: 5 logos -->
-      <mediaDescription>
-        <multimedia
-          url="https://static.wixstatic.com/media/76b12f_f95f7cc6829e42c7b25a4a42646947e3~mv2.png"
-          mimeValue="image/png"
-          type="logo_colour_square"
-          width="32"
-          height="32" />
-      </mediaDescription>
-
-      <mediaDescription>
-        <multimedia
-          url="https://static.wixstatic.com/media/76b12f_99ca3f92e77c4012a35d839973911f6d~mv2.png"
-          mimeValue="image/png"
-          type="logo_colour_rectangle"
-          width="112"
-          height="32" />
-      </mediaDescription>
-
-      <mediaDescription>
-        <multimedia
-          url="https://static.wixstatic.com/media/76b12f_99ca3f92e77c4012a35d839973911f6d~mv2.png"
-          mimeValue="image/png"
-          type="logo_unrestricted"
-          width="128"
-          height="128" />
-      </mediaDescription>
-
-      <mediaDescription>
-        <multimedia
-          url="https://static.wixstatic.com/media/76b12f_c05337ee90dd4e60b8ca72e84d7d70d8~mv2.png"
-          mimeValue="image/png"
-          type="logo_unrestricted"
-          width="320"
-          height="240" />
-      </mediaDescription>
-
-      <mediaDescription>
-        <multimedia
-          url="https://static.wixstatic.com/media/76b12f_3ffe7139948e40cf964bf48a1ba8ee8b~mv2.png"
-          mimeValue="image/png"
-          type="logo_unrestricted"
-          width="600"
-          height="600" />
-      </mediaDescription>
-
-      <!-- FM bearers (ES, PI=5005 -> gcc=5e2) -->
-      <bearer id="fm:5e2.5005.08770" cost="0" />
-      <bearer id="fm:5e2.5005.09950" cost="0" />
-
-      <keywords>urban, music, radio</keywords>
-
-      <!-- Opcional (si quieres mostrar tu web en algunos receptores) -->
-      <link url="https://ianballester5-commits.github.io" mimeValue="text/html" />
-
-    </service>
-  </services>
+<serviceInformation xmlns="http://www.worlddab.org/schemas/spi/31" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creationTime="2014-06-13T10:32:41+01:00" originator="RadioDNS XSI Generator" xml:lang="en" xsi:schemaLocation="http://www.worlddab.org/schemas/spi/31 spi_31.xsd">
+<services>
+<service>
+<shortName>Mi Radio</shortName>
+<mediumName>Mi Radio</mediumName>
+<longName>Mi Radio</longName>
+<mediaDescription>
+<shortDescription>Urban Music</shortDescription>
+<longDescription>Mi Radio - Urban Music en Valencia (87.7 FM) y Alicante (99.5 FM).</longDescription>
+</mediaDescription>
+<epg:link xmlns:epg="http://www.worlddab.org/schemas/epgDataTypes/14" url="https://ianballester5-commits.github.io" mimeValue="text/html"/>
+<mediaDescription>
+<multimedia url="https://static.wixstatic.com/media/76b12f_f95f7cc6829e42c7b25a4a42646947e3~mv2.png" type="logo_colour_square" width="32" height="32"/>
+</mediaDescription>
+<mediaDescription>
+<multimedia url="https://static.wixstatic.com/media/76b12f_99ca3f92e77c4012a35d839973911f6d~mv2.png" type="logo_colour_rectangle" width="32" height="112"/>
+</mediaDescription>
+<mediaDescription>
+<multimedia url="https://static.wixstatic.com/media/76b12f_99ca3f92e77c4012a35d839973911f6d~mv2.png" type="logo_unrestricted" width="128" height="128"/>
+</mediaDescription>
+<mediaDescription>
+<multimedia url="https://static.wixstatic.com/media/76b12f_c05337ee90dd4e60b8ca72e84d7d70d8~mv2.png" type="logo_unrestricted" width="320" height="240"/>
+</mediaDescription>
+<mediaDescription>
+<multimedia url="https://static.wixstatic.com/media/76b12f_3ffe7139948e40cf964bf48a1ba8ee8b~mv2.png" type="logo_unrestricted" width="600" height="600"/>
+</mediaDescription>
+<bearer id="fm:5e2.5005.08770" cost="0"/>
+<bearer id="fm:5e2.5005.09950" cost="0"/>
+</service>
+</services>
 </serviceInformation>
