@@ -7,66 +7,98 @@
     xml:lang="en"
     xsi:schemaLocation="http://www.worlddab.org/schemas/spi/31 spi_31.xsd">
 
-    <services>
-        <service>
+  <services>
 
-            <shortName>Mi Radio</shortName>
-            <mediumName>Mi Radio</mediumName>
-            <longName>Mi Radio</longName>
+    <serviceProvider>
+      <shortName>PEQUErtv</shortName>
+      <mediumName>PEQUErtv</mediumName>
 
-            <mediaDescription>
-                <shortDescription>Urban Music</shortDescription>
-                <longDescription>Mi Radio FM - Urban Music</longDescription>
-            </mediaDescription>
+      <mediaDescription>
+        <shortDescription>Radio infantil y familiar</shortDescription>
+      </mediaDescription>
 
-            <epg:link
-                xmlns:epg="http://www.worlddab.org/schemas/epgDataTypes/14"
-                url="https://www.miradiofm.es"
-                mimeValue="text/html"/>
+      <epg:link xmlns:epg="http://www.worlddab.org/schemas/epgDataTypes/14"
+          url="https://www.antenita.es"
+          mimeValue="text/html"/>
 
-            <mediaDescription>
-                <multimedia
-                    url="https://static.wixstatic.com/media/76b12f_f95f7cc6829e42c7b25a4a42646947e3~mv2.png"
-                    type="logo_colour_square"
-                    width="32"
-                    height="32"/>
-            </mediaDescription>
+      <mediaDescription>
+        <multimedia url="https://static.wixstatic.com/media/76b12f_dad02ae506c742bd97c01598aad9e810~mv2.png"
+            type="logo_colour_square" mimeValue="image/png" width="32" height="32"/>
+      </mediaDescription>
 
-            <mediaDescription>
-                <multimedia
-                    url="https://static.wixstatic.com/media/76b12f_f95f7cc6829e42c7b25a4a42646947e3~mv2.png"
-                    type="logo_colour_rectangle"
-                    width="112"
-                    height="32"/>
-            </mediaDescription>
+      <mediaDescription>
+        <multimedia url="https://static.wixstatic.com/media/76b12f_72b73caf6ad44cae83217a5deeb9cf5e~mv2.png"
+            type="logo_colour_rectangle" mimeValue="image/png" width="112" height="32"/>
+      </mediaDescription>
 
-            <mediaDescription>
-                <multimedia
-                    url="https://static.wixstatic.com/media/76b12f_99ca3f92e77c4012a35d839973911f6d~mv2.png"
-                    type="logo_unrestricted"
-                    width="128"
-                    height="128"/>
-            </mediaDescription>
+      <mediaDescription>
+        <multimedia url="https://static.wixstatic.com/media/76b12f_08680598de844d3b9f12cfa799f811e5~mv2.png"
+            type="logo_unrestricted" mimeValue="image/png" width="128" height="128"/>
+      </mediaDescription>
 
-            <mediaDescription>
-                <multimedia
-                    url="https://static.wixstatic.com/media/76b12f_c05337ee90dd4e60b8ca72e84d7d70d8~mv2.png"
-                    type="logo_unrestricted"
-                    width="320"
-                    height="240"/>
-            </mediaDescription>
+      <mediaDescription>
+        <multimedia url="https://static.wixstatic.com/media/76b12f_08680598de844d3b9f12cfa799f811e5~mv2.png"
+            type="logo_unrestricted" mimeValue="image/png" width="320" height="240"/>
+      </mediaDescription>
 
-            <mediaDescription>
-                <multimedia
-                    url="https://static.wixstatic.com/media/76b12f_3ffe7139948e40cf964bf48a1ba8ee8b~mv2.png"
-                    type="logo_unrestricted"
-                    width="600"
-                    height="600"/>
-            </mediaDescription>
+      <mediaDescription>
+        <multimedia url="https://static.wixstatic.com/media/76b12f_cf58fdcc9d954073948daa9484cf814b~mv2.png"
+            type="logo_unrestricted" mimeValue="image/png" width="600" height="600"/>
+      </mediaDescription>
 
-            <bearer id="fm:5e2.5005.08770" cost="0"/>
-            <bearer id="fm:5e2.5005.09950" cost="0"/>
+      <geolocation>
+        <country>ES</country>
+      </geolocation>
+    </serviceProvider>
 
-        </service>
-    </services>
+    <service>
+      <!-- RadioDNS requiere este elemento dentro de <service> -->
+      <radiodns fqdn="antenita.es" serviceIdentifier="antenita"/>
+
+      <shortName>PEQUErtv</shortName>
+      <mediumName>PEQUErtv</mediumName>
+
+      <mediaDescription>
+        <shortDescription>Radio infantil y familiar</shortDescription>
+      </mediaDescription>
+
+      <epg:link xmlns:epg="http://www.worlddab.org/schemas/epgDataTypes/14"
+          url="https://www.antenita.es"
+          mimeValue="text/html"/>
+
+      <mediaDescription>
+        <multimedia url="https://static.wixstatic.com/media/76b12f_cf58fdcc9d954073948daa9484cf814b~mv2.png"
+            type="logo_colour_square" mimeValue="image/png" width="32" height="32"/>
+      </mediaDescription>
+
+      <mediaDescription>
+        <multimedia url="https://static.wixstatic.com/media/76b12f_cf58fdcc9d954073948daa9484cf814b~mv2.png"
+            type="logo_colour_rectangle" mimeValue="image/png" width="112" height="32"/>
+      </mediaDescription>
+
+      <mediaDescription>
+        <multimedia url="https://static.wixstatic.com/media/76b12f_08680598de844d3b9f12cfa799f811e5~mv2.png"
+            type="logo_unrestricted" mimeValue="image/png" width="128" height="128"/>
+      </mediaDescription>
+
+      <mediaDescription>
+        <multimedia url="https://static.wixstatic.com/media/76b12f_d524498d54694516ab55142f07ef02bf~mv2.png"
+            type="logo_unrestricted" mimeValue="image/png" width="320" height="240"/>
+      </mediaDescription>
+
+      <mediaDescription>
+        <multimedia url="https://static.wixstatic.com/media/76b12f_cf58fdcc9d954073948daa9484cf814b~mv2.png"
+            type="logo_unrestricted" mimeValue="image/png" width="600" height="600"/>
+      </mediaDescription>
+
+      <geolocation>
+        <country>ES</country>
+      </geolocation>
+
+      <bearer id="fm:5e2.5011.09010" cost="0"/>
+      <bearer id="fm:5e2.5011.09640" cost="0"/>
+      <bearer id="fm:5e2.5011.10760" cost="0"/>
+    </service>
+
+  </services>
 </serviceInformation>
